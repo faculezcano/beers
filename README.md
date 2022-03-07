@@ -1,18 +1,18 @@
-#Beers
+# Beers
 
 This project integrates an Angular frontend and a NestJs backend using docker-compose.
 
-##Requirements
+## Requirements
 
-*docker
-*docker-compose
+* docker
+* docker-compose
 
-##Build and run
+## Build and run
 
 `$ docker-compose up -d --build`
 
-##Test
+## Test
 
 Login using:
-*user: admin@example.com
-*pass: admin
+* user: `admin@example.com`
+* pass: `admin`
