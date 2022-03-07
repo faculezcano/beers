@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  mongo:
+    image: mongo
+
+  backend:
+    build:
+      context: './beers-backend'
+    ports:
+      - '3000:3000'
+    depends_on:
+      - mongo
+
+  frontend:
+    build:
+      context: './beers-frontend'
+    ports:
+      - '4200:4200'
+    depends_on:
+      - backend

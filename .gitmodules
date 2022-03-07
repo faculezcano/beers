@@ -1,0 +1,6 @@
+[submodule "beers-backend"]
+	path = beers-backend
+	url = ssh://git@github.com/faculezcano/beers-backend.git
+[submodule "beers-frontend"]
+	path = beers-frontend
+	url = ssh://git@github.com/faculezcano/beers-frontend.git
